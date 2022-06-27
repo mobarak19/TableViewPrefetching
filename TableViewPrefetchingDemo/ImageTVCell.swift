@@ -15,7 +15,6 @@ class ImageTVCell: UITableViewCell {
         let imgV = UIImageView()
         imgV.clipsToBounds = true
         imgV.contentMode = .scaleAspectFill
-        imgV.translatesAutoresizingMaskIntoConstraints = false
         return imgV
     }()
     
